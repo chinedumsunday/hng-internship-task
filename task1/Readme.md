@@ -1,8 +1,8 @@
-HNG Internship Task: Static Website Deployment
+# HNG Internship Task: Static Website Deployment
 
 This repository contains my submission for the HNG Internship task. It is a static website deployed on an AWS EC2 instance using NGINX.
 
-Project Description
+## Project Description
 
 The project is a simple static website that displays my information as part of the internship requirements. It includes:
 
@@ -24,7 +24,7 @@ Project Structure
 INDEX.HTML: Main HTML file containing the structure of the webpage, the styles, and the javascript.
 
 
-Deployment Instructions
+## Deployment Instructions
 
 To deploy this project locally or on your own server:
 
