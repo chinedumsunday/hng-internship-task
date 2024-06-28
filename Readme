@@ -1,36 +1,36 @@
-# HNG Internship Task: Static Website Deployment
+HNG Internship Task: Static Website Deployment
 
 This repository contains my submission for the HNG Internship task. It is a static website deployed on an AWS EC2 instance using NGINX.
 
-## Project Description
+Project Description
 
 The project is a simple static website that displays my information as part of the internship requirements. It includes:
 
-- **Name**: CHINEDUM SUNDAY
-- **Username**: CHINEDUM
-- **Email**: chinedumsunday5@gmail.com
-- **Note**: Currently participating in the HNG Internship. You can check out HNG at [hng.tech](https://hng.tech).
+NAME: CHINEDUM SUNDAY
+USERNAME: CHINEDUM
+EMAIL: chinedumsunday5@gmail.com
+NOTE: Currently participating in the HNG Internship. You can check out HNG at [hng.tech](https://hng.tech).
 
-## Technologies Used
+Technologies Used
 
-- **HTML**: Used for structuring the web page.
-- **CSS**: Styling the webpage elements.
-- **JavaScript**: Adding interactive features and animations.
-- **NGINX**: Web server software used for serving the static website.
-- **AWS EC2**: Cloud platform used for hosting the website.
+HTML: Used for structuring the web page.
+CSS: Styling the webpage elements.
+JAVASCRIPT: Adding interactive features and animations.
+NGINX: Web server software used for serving the static website.
+AWS: Cloud platform used for hosting the website.
 
-## Project Structure
+Project Structure
 
-- **index.html**: Main HTML file containing the structure of the webpage.
+INDEX.HTML: Main HTML file containing the structure of the webpage, the styles, and the javascript.
 
 
-## Deployment Instructions
+Deployment Instructions
 
 To deploy this project locally or on your own server:
 
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/hng-internship-task.git
+   git clone https://github.com/chinedumsunday/hng-internship-task.git
 
 Navigate into the project directory:
 
