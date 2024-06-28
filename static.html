@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Information</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #222; 
+      overflow: hidden; 
+    }
+
+    .jumping-element {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #ff9900;
+      animation: jump 3s ease-in-out infinite;
+    }
+
+
+    @keyframes jump {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-200px); }
+      100% { transform: translateY(0); }
+    }
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: relative; 
+      z-index: 1;    
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .info-item {
+      margin-bottom: 7px;
+    }
+
+    .label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .value {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+ <div class="container">
+  <h1>In partial fullfillment 😂😂</h1>
+  <div class="info-item">
+   <span class="label">Name:</span>
+   <span class="value"><b>CHINEDUM SUNDAY</b></span>
+  </div>
+  <div class="info-item">
+   <span class="label">Username:</span>
+   <span class="value">CHINEDUM</span>
+  </div>
+  <div class="info-item">
+   <span class="label">Email:</span>
+   <span class="value">chinedumsunday5@gmail.com</span>
+  </div>
+   <div class="info-item">
+   <span class="label">note</span>
+   <span class="value">Currently working partaking in the HNG internship you can check them out here <br><br> <a href>https://hng.tech</a> </span>
+  </div>
+ </div>
+
+  <script>
+
+    for (let i = 0; i < 20; i++) { 
+      const element = document.createElement('div');
+      element.classList.add('jumping-element');
+      document.body.appendChild(element);
+
+
+      element.style.left = Math.random() * 100 + 'vw';
+      element.style.top = Math.random() * 100 + 'vh';
+      element.style.animationDelay = Math.random() * 3 + 's'; 
+    }
+
+
+    const nameValue = document.getElementById('nameValue');
+    nameValue.addEventListener('mouseover', () => {
+      nameValue.textContent = "HNG Intern";
+    });
+    nameValue.addEventListener('mouseout', () => {
+      nameValue.textContent = "CHINEDUM SUNDAY";
+    });
+  </script>
+</body>
+</html>
